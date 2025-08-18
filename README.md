@@ -2,7 +2,7 @@
 
 A modern, interactive terminal-style portfolio website showcasing professional experience, projects, and open-source contributions.
 
-## 🚀 Features
+## Features
 
 - **Interactive Terminal Interface**: Navigate through the portfolio using command-line style interactions
 - **Professional Experience Section**: Detailed work history and career progression
@@ -12,14 +12,14 @@ A modern, interactive terminal-style portfolio website showcasing professional e
 - **Command History**: Navigate through previous commands using arrow keys
 - **Easter Eggs**: Hidden features and fun interactions
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript
 - **Fonts**: JetBrains Mono (Professional coding font)
 - **Design**: CSS Grid, Flexbox, CSS Animations
 - **Icons**: Unicode symbols and custom ASCII art
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio/
@@ -29,7 +29,7 @@ portfolio/
 └── README.md          # Project documentation
 ```
 
-## 🎮 Available Commands
+## Available Commands
 
 Type any of these commands in the terminal:
 
@@ -47,14 +47,14 @@ Type any of these commands in the terminal:
 - `pwd` - Show current directory
 - `date` - Display current date and time
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Clone or download** the project files
 2. **Open `index.html`** in your web browser
 3. **Start typing commands** in the terminal interface
 4. **Explore** the different sections using the available commands
 
-## 🎨 Customization
+## Customization
 
 ### Personal Information
 
@@ -81,55 +81,10 @@ Customize the terminal appearance in `styles.css`:
 - Update repository links in the projects section
 - Modify contribution statistics to match your profile
 
-## 📱 Responsive Design
-
-The portfolio is fully responsive and includes:
-
-- Mobile-optimized terminal interface
-- Adaptive grid layouts for projects
-- Scalable ASCII art for different screen sizes
-- Touch-friendly command buttons on mobile
-
-## 🌟 Advanced Features
-
-### Command History
-
-- Use ↑/↓ arrow keys to navigate through command history
-- Auto-focus on terminal input for seamless interaction
-
-### Interactive Elements
-
-- Clickable command suggestions
-- Hover effects on project cards and links
-- Smooth scrolling to new content
-
-### Performance Optimizations
-
-- Minimal dependencies (vanilla JavaScript)
-- Optimized CSS with custom properties
-- Efficient DOM manipulation
-
-## 🔧 Browser Compatibility
-
-- Chrome/Chromium (recommended)
-- Firefox
-- Safari
-- Edge
-- Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your own portfolio! If you make improvements that could benefit others, pull requests are welcome.
-
-## 📞 Contact
-
-- **GitHub**: [Peponks9](https://github.com/Peponks9)
-- **Email**: jose.velazquez@email.com
-- **LinkedIn**: [jose-velazquez](https://linkedin.com/in/jose-velazquez)
 
 ---
 
