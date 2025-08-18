@@ -54,34 +54,6 @@ Type any of these commands in the terminal:
 3. **Start typing commands** in the terminal interface
 4. **Explore** the different sections using the available commands
 
-## Customization
-
-### Personal Information
-
-Edit the following sections in the JavaScript file (`script.js`):
-
-- Update name and role in ASCII art
-- Modify experience details in `showExperience()`
-- Update project information in `showProjects()`
-- Change contact details in `showContact()`
-- Update GitHub username throughout the code
-
-### Styling
-
-Customize the terminal appearance in `styles.css`:
-
-- Color scheme variables in `:root`
-- Font family and sizes
-- Layout and spacing
-- Animation timing and effects
-
-### GitHub Integration
-
-- Replace `Peponks9` with your GitHub username
-- Update repository links in the projects section
-- Modify contribution statistics to match your profile
-
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
