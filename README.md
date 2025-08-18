@@ -47,13 +47,6 @@ Type any of these commands in the terminal:
 - `pwd` - Show current directory
 - `date` - Display current date and time
 
-## Quick Start
-
-1. **Clone or download** the project files
-2. **Open `index.html`** in your web browser
-3. **Start typing commands** in the terminal interface
-4. **Explore** the different sections using the available commands
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
