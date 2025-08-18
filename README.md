@@ -1,4 +1,4 @@
-# Jose Velazquez - Terminal Portfolio
+# Portfolio
 
 A modern, interactive terminal-style portfolio website showcasing professional experience, projects, and open-source contributions.
 
