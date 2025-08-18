@@ -20,16 +20,31 @@ class TerminalPortfolio {
         
         // Handle keyboard events
         document.addEventListener('keydown', (e) => this.handleKeyDown(e));
-        document.addEventListener('click', () => {
-            if (!this.isTyping) {
+        
+        // Click/touch handling with mobile optimization
+        document.addEventListener('click', (e) => {
+            if (!this.isTyping && !this.isMobileDevice()) {
                 this.hiddenInput.focus();
+            } else if (!this.isTyping && this.isMobileDevice()) {
+                // On mobile, only focus if user clicks in terminal content area
+                const terminalContent = document.getElementById('terminal-content');
+                const commandLines = document.querySelectorAll('.command-line, .cmd');
+                
+                if (terminalContent.contains(e.target) || 
+                    Array.from(commandLines).some(el => el.contains(e.target))) {
+                    this.hiddenInput.focus();
+                }
             }
         });
         
-        // Touch support for mobile devices
-        document.addEventListener('touchstart', () => {
-            if (!this.isTyping) {
-                this.hiddenInput.focus();
+        // Touch support for mobile devices - more selective
+        document.addEventListener('touchstart', (e) => {
+            if (!this.isTyping && this.isMobileDevice()) {
+                // Only focus on specific terminal elements, not on scroll
+                const isTerminalElement = e.target.closest('.command-line, .cmd, .terminal-content, .command-text');
+                if (isTerminalElement) {
+                    this.hiddenInput.focus();
+                }
             }
         });
         
@@ -39,6 +54,21 @@ class TerminalPortfolio {
                 e.preventDefault();
             }
         });
+        
+        // Blur input when scrolling on mobile to prevent keyboard popup
+        if (this.isMobileDevice()) {
+            let scrollTimeout;
+            document.addEventListener('scroll', () => {
+                this.hiddenInput.blur();
+                clearTimeout(scrollTimeout);
+                scrollTimeout = setTimeout(() => {
+                    // Re-focus only if user was actively typing
+                    if (this.currentInput.length > 0) {
+                        this.hiddenInput.focus();
+                    }
+                }, 150);
+            }, { passive: true });
+        }
         
         // Start the initial typing sequence
         this.startInitialSequence();
@@ -358,7 +388,10 @@ class TerminalPortfolio {
                 • <span class="cmd" onclick="executeCommand('date')">date</span> - Display current date and time
             </div>
             <br>
-            <div style="color: var(--muted-color);">Tip: Use arrow keys to navigate command history, or click the 🌙/☀️ icon to toggle theme</div>
+            <div style="color: var(--muted-color);">
+                <span class="desktop-tip">Tip: Use arrow keys to navigate command history, or click the 🌙/☀️ icon to toggle theme</span>
+                <span class="mobile-tip">Tip: Tap commands to execute them, or tap here to type manually. Use 🌙/☀️ to toggle theme</span>
+            </div>
         `;
         this.addOutput(helpContent);
     }
@@ -1020,6 +1053,13 @@ class TerminalPortfolio {
 
     getCurrentYear() {
         return new Date().getFullYear();
+    }
+
+    // Helper method to detect mobile devices
+    isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+               (window.innerWidth <= 768) ||
+               ('ontouchstart' in window);
     }
 }
 
