@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jose Velazquez - Software Engineer specializing in blockchain technology, smart contracts, and distributed systems. Interactive terminal portfolio showcasing projects and experience.">
+    <meta name="keywords" content="software engineer, blockchain, smart contracts, rust, solidity, portfolio, terminal">
+    <meta name="author" content="Jose Velazquez">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jose Velazquez - Software Engineer">
+    <meta property="og:description" content="Interactive terminal portfolio showcasing blockchain and software engineering expertise">
+    <meta property="og:url" content="https://peponks9.github.io/portfolio/">
+    <meta property="og:site_name" content="Jose Velazquez Portfolio">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jose Velazquez - Software Engineer">
+    <meta name="twitter:description" content="Interactive terminal portfolio showcasing blockchain expertise">
+    
+    <title>Jose Velazquez - Software Engineer</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-header-left">
+                <div class="terminal-controls">
+                    <span class="control close"></span>
+                    <span class="control minimize"></span>
+                    <span class="control maximize"></span>
+                </div>
+                <div class="terminal-title">jose@portfolio:~$</div>
+            </div>
+            <div class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+                <span class="theme-icon">🌙</span>
+            </div>
+        </div>
+        
+        <div class="terminal-body">
+            <div class="header-section">
+                <div class="ascii-art">
+     ██╗ ██████╗ ███████╗███████╗    ██╗   ██╗███████╗██╗      █████╗ ███████╗ ██████╗ ██╗   ██╗███████╗███████╗
+     ██║██╔═══██╗██╔════╝██╔════╝    ██║   ██║██╔════╝██║     ██╔══██╗╚══███╔╝██╔═══██╗██║   ██║██╔════╝╚══███╔╝
+     ██║██║   ██║███████╗█████╗      ██║   ██║█████╗  ██║     ███████║  ███╔╝ ██║   ██║██║   ██║█████╗    ███╔╝ 
+██   ██║██║   ██║╚════██║██╔══╝      ╚██╗ ██╔╝██╔══╝  ██║     ██╔══██║ ███╔╝  ██║▄▄ ██║██║   ██║██╔══╝   ███╔╝  
+╚█████╔╝╚██████╔╝███████║███████╗     ╚████╔╝ ███████╗███████╗██║  ██║███████╗╚██████╔╝╚██████╔╝███████╗███████╗
+ ╚════╝  ╚═════╝ ╚══════╝╚══════╝      ╚═══╝  ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚══▀▀═╝  ╚═════╝ ╚══════╝╚══════╝
+                </div>
+                <div class="role-text">Software Engineer</div>
+                <div class="welcome-message" id="welcome-message">
+                    <!-- whoami command will be typed here -->
+                </div>
+            </div>
+
+            <div class="terminal-content" id="terminal-content">
+                <!-- Commands will be typed here automatically -->
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

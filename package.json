@@ -1,0 +1,28 @@
+{
+  "name": "jose-velazquez-portfolio",
+  "version": "1.0.0",
+  "description": "Terminal-style portfolio website for Jose Velazquez - Software Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "terminal",
+    "software-engineer",
+    "resume",
+    "github",
+    "projects"
+  ],
+  "author": "Jose Velazquez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Peponks9/portfolio"
+  },
+  "homepage": "https://jose-velazquez.dev",
+  "devDependencies": {},
+  "dependencies": {}
+}
