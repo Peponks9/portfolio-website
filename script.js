@@ -774,7 +774,7 @@ class TerminalPortfolio {
             <div class="contact-info">
                 <div class="contact-item">
                     <span class="contact-label">Email:</span>
-                    <a href="mailto:jose.velazquez@email.com" class="contact-link">jose.velazquez@email.com</a>
+                    <a href="mailto:josev9@proton.me" class="contact-link">josev9@proton.me</a>
                 </div>
                 <div class="contact-item">
                     <span class="contact-label">GitHub:</span>
@@ -878,7 +878,7 @@ class TerminalPortfolio {
 
     downloadResume() {
         // Open resume in new tab and show download message
-        const resumeUrl = 'https://drive.google.com/file/d/1HXpETnNu_EHPLsr9IeWSVSG1X775Au4h/view?usp=sharing';
+        const resumeUrl = 'https://drive.google.com/file/d/1C2BpOJwCHp4jdWCmeMItdv5_ATCDDP1E/view?usp=sharing://drive.google.com/file/d/1HXpETnNu_EHPLsr9IeWSVSG1X775Au4h/view?usp=sharing';
         window.open(resumeUrl, '_blank');
         
         this.addOutput(`
