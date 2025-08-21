@@ -609,7 +609,6 @@ class TerminalPortfolio {
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/Peponks9/smol-evm" target="_blank" class="project-link">GitHub</a>
-                        <a href="https://github.com/Peponks9/smol-evm#readme" target="_blank" class="project-link">Documentation</a>
                     </div>
                 </div>
 
@@ -626,7 +625,6 @@ class TerminalPortfolio {
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/Peponks9/merkle-tree-rs" target="_blank" class="project-link">GitHub</a>
-                        <a href="https://github.com/Peponks9/merkle-tree-rs#readme" target="_blank" class="project-link">Docs</a>
                     </div>
                 </div>
 
@@ -643,7 +641,6 @@ class TerminalPortfolio {
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/Peponks9/detract" target="_blank" class="project-link">GitHub</a>
-                        <a href="https://ethglobal.com/showcase/detract" target="_blank" class="project-link">Demo</a>
                     </div>
                 </div>
 
@@ -660,7 +657,6 @@ class TerminalPortfolio {
                     </div>
                     <div class="project-links">
                         <a href="https://github.com/Peponks9/terminal-portfolio" target="_blank" class="project-link">GitHub</a>
-                        <a href="${window.location.href}" target="_blank" class="project-link">Live Demo</a>
                     </div>
                 </div>
             </div>
@@ -703,85 +699,40 @@ class TerminalPortfolio {
             <div class="section-title">Open Source Contributions</div>
             
             <div class="experience-item">
-                <div class="job-title">React Component Library</div>
-                <div class="company">facebook/react • Pull Request #28456</div>
+                <div class="job-title">OpenZeppelin Rust Contracts Stylus</div>
+                <div class="company">OpenZeppelin/rust-contracts-stylus • <a href="https://github.com/OpenZeppelin/rust-contracts-stylus/pull/786" target="_blank" class="contact-link">Pull Request #786</a></div>
+                <div class="duration">Open • January 2025</div>
+                <div class="job-description">
+                    <ul>
+                        <li>Added comprehensive documentation for implementing EnumerableSet with custom storage types</li>
+                        <li>Created step-by-step implementation guide and working examples using CosmWasm</li>
+                        <li>Enhanced existing documentation with concise usage examples and best practices</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Foundry Ethereum Development Framework</div>
+                <div class="company">foundry-rs/foundry • <a href="https://github.com/foundry-rs/foundry/pull/11298" target="_blank" class="contact-link">Pull Request #11298</a></div>
+                <div class="duration">Open • January 2025</div>
+                <div class="job-description">
+                    <ul>
+                        <li>Fixed critical bug where log's removed field was always false during blockchain reorgs</li>
+                        <li>Implemented ReorgedBlockNotification system for proper event log handling</li>
+                        <li>Enhanced LogsSubscription to emit logs with correct removed status during reorgs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title">Coding Interview Patterns</div>
+                <div class="company">ByteByteGoHq/coding-interview-patterns • <a href="https://github.com/ByteByteGoHq/coding-interview-patterns/pull/93" target="_blank" class="contact-link">Pull Request #93</a></div>
                 <div class="duration">Merged • December 2024</div>
                 <div class="job-description">
                     <ul>
-                        <li>Added TypeScript support for custom hook components</li>
-                        <li>Improved accessibility features for form components</li>
-                        <li>Enhanced documentation with interactive examples</li>
-                        <li>Fixed memory leak in useEffect cleanup functions</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Vue.js Core Framework</div>
-                <div class="company">vuejs/core • Pull Request #9234</div>
-                <div class="duration">Merged • November 2024</div>
-                <div class="job-description">
-                    <ul>
-                        <li>Optimized reactivity system for large datasets</li>
-                        <li>Reduced bundle size by 15% through tree-shaking improvements</li>
-                        <li>Added new composition API features for better developer experience</li>
-                        <li>Fixed edge case bugs in the virtual DOM diffing algorithm</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">TensorFlow.js</div>
-                <div class="company">tensorflow/tfjs • Pull Request #7845</div>
-                <div class="duration">Merged • October 2024</div>
-                <div class="job-description">
-                    <ul>
-                        <li>Implemented WebGL backend optimizations for mobile devices</li>
-                        <li>Added support for new machine learning model formats</li>
-                        <li>Improved performance for real-time inference by 30%</li>
-                        <li>Created comprehensive unit tests for new features</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Node.js Runtime</div>
-                <div class="company">nodejs/node • Pull Request #51234</div>
-                <div class="duration">Merged • September 2024</div>
-                <div class="job-description">
-                    <ul>
-                        <li>Fixed critical security vulnerability in HTTP parser</li>
-                        <li>Improved performance of file system operations</li>
-                        <li>Added new experimental features for ES modules</li>
-                        <li>Enhanced error reporting with better stack traces</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">VS Code Extensions</div>
-                <div class="company">microsoft/vscode • Pull Request #198765</div>
-                <div class="duration">Merged • August 2024</div>
-                <div class="job-description">
-                    <ul>
-                        <li>Created new language support extension for emerging programming languages</li>
-                        <li>Improved IntelliSense performance for large codebases</li>
-                        <li>Added dark theme support for better developer experience</li>
-                        <li>Fixed compatibility issues with remote development features</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="experience-item">
-                <div class="job-title">Docker Community</div>
-                <div class="company">docker/compose • Pull Request #10987</div>
-                <div class="duration">Merged • July 2024</div>
-                <div class="job-description">
-                    <ul>
-                        <li>Enhanced container orchestration with new networking features</li>
-                        <li>Improved multi-platform build support</li>
-                        <li>Added better error handling and logging capabilities</li>
-                        <li>Created detailed documentation for new features</li>
+                        <li>Implemented Rust solutions for Two Pointers algorithm patterns</li>
+                        <li>Added memory-safe implementations following Rust best practices</li>
+                        <li>Created efficient solutions for shift_zeros_to_the_end algorithms</li>
                     </ul>
                 </div>
             </div>
@@ -790,20 +741,20 @@ class TerminalPortfolio {
                 <div class="section-title" style="font-size: 16px;">Community Impact</div>
                 <div class="github-stats">
                     <div class="stat-card">
-                        <span class="stat-number">50+</span>
-                        <div class="stat-label">PRs Merged</div>
+                        <span class="stat-number">3+</span>
+                        <div class="stat-label">Active PRs</div>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number">25+</span>
+                        <span class="stat-number">3</span>
                         <div class="stat-label">Projects Contributed</div>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number">1.2K+</span>
-                        <div class="stat-label">Stars Earned</div>
+                        <span class="stat-number">Rust</span>
+                        <div class="stat-label">Primary Language</div>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number">100+</span>
-                        <div class="stat-label">Issues Resolved</div>
+                        <span class="stat-number">Blockchain</span>
+                        <div class="stat-label">Focus Area</div>
                     </div>
                 </div>
             </div>
