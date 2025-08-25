@@ -33,15 +33,6 @@ portfolio/
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your own portfolio! If you make improvements that could benefit others, pull requests are welcome.
-
-## 📞 Contact
-
-- **GitHub**: [Peponks9](https://github.com/Peponks9)
-- **Email**: josev9@proton.me
-- **LinkedIn**: [jose-velazquez](https://linkedin.com/in/jose-velazquez)
 
 ---
 
